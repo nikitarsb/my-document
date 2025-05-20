@@ -2,6 +2,7 @@
   "name": "my-website",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://github.com/nikitarsb/my-document",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -18,13 +19,15 @@
     "@docusaurus/preset-classic": "3.7.0",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
+    "docusaurus": "^1.14.7",
     "prism-react-renderer": "^2.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.7.0",
-    "@docusaurus/types": "3.7.0"
+    "@docusaurus/types": "3.7.0",
+    "gh-pages": "^6.3.0"
   },
   "browserslist": {
     "production": [
